@@ -106,10 +106,3 @@ $ show goal
 $ git rebase -i master~4 --aboveAll
 
 
-
-lem 2
-
-$ delay 2000
-$ show goal
-$ git rebase -i master~4 --aboveAll
-
