@@ -1,0 +1,115 @@
+Yingyun Zhan
+CS412
+PS0 (Git Learning)
+
+
+
+Part 1
+Problem 1
+
+$ delay 2000
+$ show goal
+$ git commit
+$ git commit
+
+
+
+Part 1
+Problem 2
+
+$ delay 2000
+$ show goal
+$ git checkout -b bugFix
+
+
+
+Part 1
+Problem 3
+
+$ delay 2000
+$ show goal
+$ git checkout -b bugFix
+$ git commit
+$ git checkout master
+$ git commit
+$ git merge bugFix
+
+
+
+Part 1
+Problem 4
+
+$ delay 2000
+$ show goal
+$ git checkout -b bugFix
+$ git commit
+$ git checkout master
+$ git commit
+$ git checkout bugFix
+$ git rebase master
+
+
+
+Part 2
+Problem 1
+
+$ delay 2000
+$ show goal
+$ git checkout C4
+
+
+Part 2
+Problem 2
+
+$ delay 2000
+$ show goal
+$ git checkout bugFix^
+
+
+
+Part 2
+Problem 3
+
+$ delay 2000
+$ show goal
+$ git branch -f master C6
+$ git branch -f bugFix C0
+$ git checkout C1
+
+
+
+Part 2
+Problem 4
+
+$ delay 2000
+$ show goal
+$ git reset local~1
+$ git checkout pushed
+$ git revert pushed
+
+
+
+Part 3
+Problem 1
+
+$ delay 2000
+$ show goal
+$ git cherry-pick C3 C4 C7
+
+
+
+Part 3
+Problem 2
+
+$ delay 2000
+$ show goal
+$ git rebase -i master~4 --aboveAll
+
+
+
+lem 2
+
+$ delay 2000
+$ show goal
+$ git rebase -i master~4 --aboveAll
+
