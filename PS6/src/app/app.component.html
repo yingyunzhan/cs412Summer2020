@@ -1,0 +1,20 @@
+<h1> Welcome to {{title}}</h1>
+
+<div name="outerList">
+  <ul *ngFor="let anews of news">
+
+    <li (click)="showINFO(anews.title)">{{anews.title}}</li>
+  </ul>
+</div>
+
+<div name="details" *ngIf="selectedNews">
+  <br/>
+  <input style="height:80px;width:1300px;font-size:12pt;"
+         name="info" type="text" value="Author: {{selectedNews.author}}">
+  <input style="height:80px;width:1300px;font-size:12pt;"
+         name="info" type="text" value="Description: {{selectedNews.description}}">
+  <input style="height:80px;width:1300px;font-size:12pt;"
+         name="info" type="text" value="Date: {{selectedNews.date}}">
+  <input style="height:80px;width:1300px;font-size:12pt;"
+         name="info" type="url" value="Link: {{selectedNews.url}}">
+</div>
